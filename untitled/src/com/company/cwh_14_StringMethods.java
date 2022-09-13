@@ -25,6 +25,7 @@ public class cwh_14_StringMethods {
 
 //        System.out.println(name.equalsIgnoreCase("arham"));
         System.out.println("I am a sequence of \"double quote\"");
+        System.out.println("I am a sequence of \\ Arham");
     }
 
 }

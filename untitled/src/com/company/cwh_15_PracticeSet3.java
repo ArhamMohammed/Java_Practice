@@ -28,7 +28,7 @@ public class cwh_15_PracticeSet3 {
 //        System.out.println(mystring.indexOf("   "));
 
 //        Problem 5
-        String letter = "Dear Arham,\n\tThis Java course is nice.\nThanks!";
+        String letter = "Dear Arham,\n\n\tThis Java course is nice.\n\nThanks!";
         System.out.println(letter);
     }
 }

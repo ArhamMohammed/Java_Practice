@@ -39,7 +39,7 @@ public class cwh_18_ElseIf {
         switch (var1) {
             case "Shubam" -> System.out.println("You are going to become an adult");
             case "Arham" -> System.out.println("You are going to join a Job");
-            case "Riham" -> System.out.println("You are going to be retired");
+            case "Rihaam" -> System.out.println("You are going to retire");
             default -> System.out.println("Enjoy you life!!");
         }
         System.out.println("Thanks for using my Java Code");

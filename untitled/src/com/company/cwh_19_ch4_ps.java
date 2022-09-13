@@ -32,13 +32,17 @@ public class cwh_19_ch4_ps {
 //                System.out.println("Your income is = "+income+" and your tax is = "+tax);
 //            }
 //            else if (income>=500000 && income < 1000000){
-//                tax = 0.20*(income-250000);
+//                tax = tax + 0.05*(500000-250000);
+//                tax = tax + 0.20*(income-500000);
 //                System.out.println("Your income is = "+income+" and your tax is = "+tax);
 //            }
 //
-//            else{
-//                tax = 0.30*(income-250000);
-//                System.out.println("Your income is = "+income+" and your tax is = "+tax);
+//            else {
+//                tax = tax + 0.05*(500000-250000);
+//                tax = tax + 0.20*(1000000 - 500000);
+//                tax = tax + 0.30 * (income - 1000000);
+//                System.out.println("Your income is = " + income + " and your tax is = " + tax);
+//            }
 //    Problem 4
 //        System.out.println("Enter the number for the requested day");
 //        int x = sc.nextInt();
@@ -53,15 +57,15 @@ public class cwh_19_ch4_ps {
 //        }
 
 //        Problem 5
-        System.out.println("Enter the website");
-        String s = sc.nextLine();
-        if(s.endsWith(".com"))
-            System.out.println("This is a commercial website");
-        else if(s.endsWith(".org"))
-            System.out.println("This is a organisational website");
-        else if(s.endsWith(".in"))
-            System.out.println("This is a indian website");
-        else System.out.println("Dont know which type of website is this");
+//        System.out.println("Enter the website");
+//        String s = sc.nextLine();
+//        if(s.endsWith(".com"))
+//            System.out.println("This is a commercial website");
+//        else if(s.endsWith(".org"))
+//            System.out.println("This is a organisational website");
+//        else if(s.endsWith(".in"))
+//            System.out.println("This is a indian website");
+//        else System.out.println("Dont know which type of website is this");
 
     }
 }

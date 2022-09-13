@@ -63,16 +63,19 @@ public class cwh_29_arraysPracticeSet6 {
 //            System.out.print(a[i]+" ");
 //
 //        Problem 6
-//        int a[]={1,21,3,455,5,34,67};
-//        int max=0,min=0;
-//        for(int e:a){
-//            if (e>max){
-//                max=e;
-//            }
-//        }
-//
-//        System.out.println("The maximum ="+max);
-//        System.out.println("The minimum ="+min);
+        int a[]={4,21,3,455,5,34,67};
+        int max=0,min=a[0];
+        for(int e:a){
+            if (e>max){
+                max=e;
+            }
+            else if (e<min){
+                min = e;
+            }
+        }
+
+        System.out.println("The maximum ="+max);
+        System.out.println("The minimum ="+min);
 //
 //      Problem 7
 //        int a[]={5,21,3,455,1,34,67};

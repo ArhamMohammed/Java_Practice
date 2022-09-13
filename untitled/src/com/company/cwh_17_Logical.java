@@ -25,5 +25,6 @@ public class cwh_17_Logical {
             System.out.println("Not A is = "+!a);
             System.out.println("Not B is = "+!b);
 
+
     }
 }
