@@ -28,6 +28,17 @@ class Cellphone {
         System.out.println("Calling ammi");
     }
 }
+class Cellphone{
+    public void ringing(){
+        System.out.println("Your phone is ringing.");
+    }
+    public void vibrating(){
+        System.out.print("Your phone is vibrating.");
+    }
+    public void callFriend(String friend){
+        System.out.println("Calling "+friend);
+    }
+}
 */
 
 //class Sqaure{
@@ -68,16 +79,16 @@ class Cellphone {
 //    }
 //}
 
-class Circle{
-    int r;
-    public double area(){
-        return (3.14*r*r);
-    }
-
-    public double perimeter(){
-        return (3.14*r*2);
-    }
-}
+//class Circle{
+//    int r;
+//    public double area(){
+//        return (3.14*r*r);
+//    }
+//
+//    public double perimeter(){
+//        return (3.14*r*2);
+//    }
+//}
 public class cwh_39_ch8_ps {
     public static void main(String[] args) {
 /*Problem 1
@@ -93,7 +104,13 @@ public class cwh_39_ch8_ps {
         asus.callFriend();
         asus.vibrating();
         asus.ringing();
+
+        Cellphone samsung = new Cellphone();
+        samsung.callFriend("Masood");
+        samsung.ringing();
+        samsung.vibrating();
 */
+
 //        Problem 3
 
 //        Sqaure sq = new Sqaure();
@@ -116,10 +133,10 @@ public class cwh_39_ch8_ps {
 
 //        Problem 6
 
-        Circle c = new Circle();
-        c.r=25;
-        System.out.println("The area of the circle is ="+c.area());
-        System.out.println("The perimeter of the circle is ="+c.perimeter());
+//        Circle c = new Circle();
+//        c.r=25;
+//        System.out.println("The area of the circle is ="+c.area());
+//        System.out.println("The perimeter of the circle is ="+c.perimeter());
 
     }
 }

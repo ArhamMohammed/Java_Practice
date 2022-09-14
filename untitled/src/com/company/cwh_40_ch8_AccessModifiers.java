@@ -12,9 +12,9 @@ class MyEmployee{
         return name;
     }
 
-    public int setID(int i){
+    public void setID(int i){
         id = i;
-        return id;
+//        return id;
     }
 
     public int getID(){
