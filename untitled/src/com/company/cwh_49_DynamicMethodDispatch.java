@@ -34,5 +34,6 @@ public class cwh_49_DynamicMethodDispatch {
         Phone obj = new SmartPhone();
         obj.greet();
         obj.name();
+//        obj.swagat();
     }
 }

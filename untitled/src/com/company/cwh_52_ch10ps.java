@@ -29,6 +29,33 @@ class CylinderPracticeSet extends CirclePracticeSet{
     }
 }
 
+class Rectangle{
+    public int length, breadth;
+
+    Rectangle(int l,int b){
+        this.length = l;
+        this.breadth = b;
+    }
+    double RecArea(){
+        return length*breadth;
+    }
+    double RecPerimeter(){
+        return 2*(length+breadth);
+    }
+}
+
+class Cuboid extends Rectangle{
+    int height;
+    Cuboid(int l,int b,int h){
+    super(l,b);
+    this.height = h;
+    }
+   double CuboidArea(){
+        System.out.println("The length = "+length+" The breadth = "+breadth+" The height = "+this.height);
+        return 2*(length * breadth + breadth * height + length * height);
+    }
+}
+
 public class cwh_52_ch10ps {
     public static void main(String[] args) {
 
@@ -38,6 +65,10 @@ public class cwh_52_ch10ps {
 
         CylinderPracticeSet cps = new CylinderPracticeSet(10,20);
         System.out.println(cps.area());
+
+//        Problem 2
+        Cuboid cub = new Cuboid(10,30,50);
+        System.out.println("The area of the cuboid is = "+cub.CuboidArea());
 
     }
 }

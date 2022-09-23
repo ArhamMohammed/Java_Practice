@@ -7,9 +7,9 @@ class EkClass{
 
     int a;
 
-    EkClass(int a){
-        this.a=a;
-
+    EkClass(){
+//        this.a=a;
+    System.out.println("This is EkClass ka constructor");
     }
 
     public int returnOne(){
@@ -20,7 +20,7 @@ class EkClass{
 class DoClass extends EkClass{
     DoClass(int c)
     {
-        super(c);
+//        super(c);
         System.out.println("Mai ek constructor hoon");
     }
 }
@@ -28,8 +28,8 @@ class DoClass extends EkClass{
 public class ch_47_this_super {
     public static void main(String[] args) {
 
-        EkClass e = new EkClass(65);
-        System.out.println("The value of a is = "+e.getA());
+        EkClass e = new EkClass();
+//        System.out.println("The value of a is = "+e.getA());
 
         DoClass d = new DoClass(5);
         System.out.println("The value of c is coming from doClass = "+d.getA());
