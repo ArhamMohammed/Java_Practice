@@ -13,6 +13,16 @@ abstract class Parent2{
     public abstract void greet();
     public abstract void greet2();
 }
+abstract class Parent3{
+    public Parent3(){
+        System.out.println("Mai base2 ka constructor hoon");
+    }
+    public void sayHello(){
+        System.out.println("Hello");
+    }
+    public abstract void greet();
+    public abstract void greet2();
+}
 
 class Child2 extends Parent2{
     @Override
