@@ -21,7 +21,7 @@ class NegativeRadiusException extends Exception{
 public class cwh_84_throwandthrows {
 
 
-    public static double area(int r) throws NegativeRadiusException{
+    public static double area(int r) throws NegativeRadiusException {
         if(r<0){
             throw new NegativeRadiusException();
         }
