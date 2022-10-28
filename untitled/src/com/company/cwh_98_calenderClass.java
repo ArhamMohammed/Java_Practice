@@ -13,6 +13,7 @@ public class cwh_98_calenderClass {
 //        Calendar c = Calendar.getInstance(TimeZone.getTimeZone("Asia/Singapore"));
         System.out.println(c.getCalendarType());
         System.out.println(c.getTimeZone().getID());
+        System.out.println(c.getTime());
 
 
 
