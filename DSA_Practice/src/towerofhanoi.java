@@ -14,7 +14,7 @@ public class towerofhanoi {
     }
     public static void main(String[] args) {
 
-        int n = 4;
+        int n = 3;
         shiftDisk(n,'A','B','C');
 
 
