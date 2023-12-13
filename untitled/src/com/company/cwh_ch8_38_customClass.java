@@ -11,7 +11,6 @@ class Employee{
     public int getSalary(){
         return salary;
     }
-
 }
 
 public class cwh_ch8_38_customClass {

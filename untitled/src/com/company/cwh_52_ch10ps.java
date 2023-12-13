@@ -29,10 +29,10 @@ class CylinderPracticeSet extends CirclePracticeSet{
     }
 }
 
-class Rectangle{
+class Rectangle1{
     public int length, breadth;
 
-    Rectangle(int l,int b){
+    Rectangle1(int l,int b){
         this.length = l;
         this.breadth = b;
     }
@@ -44,7 +44,7 @@ class Rectangle{
     }
 }
 
-class Cuboid extends Rectangle{
+class Cuboid extends Rectangle1{
     int height;
     Cuboid(int l,int b,int h){
     super(l,b);
